@@ -31,12 +31,18 @@ Please complete all the setup steps listed below on your laptop **before coming 
 The ESP32 microcontroller uses a CP2102 / CP210x USB-to-UART chip to communicate with your laptop over USB.
 
 1. Download the driver from Silicon Labs:  
-   👉 **[Silicon Labs CP210x VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)**
-2. Extract the downloaded zip file.
-3. Run the installer matching your OS:
-   - **Windows:** Run `CP210xVCPInstaller_x64.exe` (64-bit) or `x86.exe` (32-bit).
-   - **macOS:** Install the `.dmg` package and allow security permissions under *System Settings > Privacy & Security*.
-4. Restart your computer after installation if prompted.
+   👉 **[Silicon Labs CP210x VCP Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)** *(Download **CP210x Universal Windows Driver**)*
+2. Extract the downloaded `.zip` file completely to a folder.
+3. Install on **Windows**:
+   - **Method 1 (INF File - Recommended):**  
+     Inside the extracted folder, find **`silabser.inf`**, right-click it, and select **Install** (on Windows 11, click *Show more options* ➔ *Install*). Click **Yes** when Windows asks for permission.
+   - **Method 2 (Batch File):**  
+     Right-click **`update_param.bat`** and select **Run as Administrator**.
+   - **Method 3 (Older `.exe` package):**  
+     If your zip contains `CP210xVCPInstaller_x64.exe`, double-click and run it.
+4. Install on **macOS**:
+   - Open the downloaded `.dmg` package, run the installer, and allow security permissions under *System Settings > Privacy & Security*.
+5. Restart your computer after installation if prompted.
 
 ---
 
