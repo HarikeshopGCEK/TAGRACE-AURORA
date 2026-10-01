@@ -31,7 +31,7 @@ Please complete all the setup steps listed below on your laptop **before coming 
 The ESP32 microcontroller uses a CP2102 / CP210x USB-to-UART chip to communicate with your laptop over USB.
 
 1. Download the driver from Silicon Labs:  
-   👉 **[Silicon Labs CP210x VCP Drivers]([https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads]))**
+   👉 **[Silicon Labs CP210x VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads))**
 2. Extract the downloaded zip file.
 3. Run the installer matching your OS:
    - **Windows:** Run `CP210xVCPInstaller_x64.exe` (64-bit) or `x86.exe` (32-bit).
